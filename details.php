@@ -1,5 +1,5 @@
 <?php
-
+//Includes
 include("_includes/config.inc");
 include("_includes/dbconnect.inc");
 include("_includes/functions.inc");
@@ -42,21 +42,65 @@ if (isset($_SESSION['id'])) {
 
    <h2>My Details</h2>
    <form name="frmdetails" action="" method="post">
-   First Name :
-   <input name="txtfirstname" type="text" value="{$row['firstname']}" /><br/>
-   Surname :
-   <input name="txtlastname" type="text"  value="{$row['lastname']}" /><br/>
-   Number and Street :
-   <input name="txthouse" type="text"  value="{$row['house']}" /><br/>
-   Town :
-   <input name="txttown" type="text"  value="{$row['town']}" /><br/>
-   County :
-   <input name="txtcounty" type="text"  value="{$row['county']}" /><br/>
-   Country :
-   <input name="txtcountry" type="text"  value="{$row['country']}" /><br/>
-   Postcode :
-   <input name="txtpostcode" type="text"  value="{$row['postcode']}" /><br/>
-   <input type="submit" value="Save" name="submit"/>
+   <table class='inputTable'>
+     <tr>
+       <td>
+       First Name :
+       </td>
+       <td>
+       <input name="txtfirstname" type="text" value="{$row['firstname']}" /><br/>
+       </td>
+     </tr>
+     <tr>
+       <td>
+       Surname :
+       </td>
+       <td>
+       <input name="txtlastname" type="text"  value="{$row['lastname']}" /><br/>
+       </td>
+     </tr>
+     <tr>
+       <td>
+       Number and Street :
+       </td>
+       <td>
+       <input name="txthouse" type="text"  value="{$row['house']}" /><br/>
+       </td>
+     </tr>
+     <tr>
+       <td>
+       Town :
+       </td>
+       <td>
+       <input name="txttown" type="text"  value="{$row['town']}" /><br/>
+       </td>
+     </tr>
+     <tr>
+       <td>
+       County :
+       </td>
+       <td>
+       <input name="txtcounty" type="text"  value="{$row['county']}" /><br/>
+       </td>
+     </tr>
+     <tr>
+       <td>
+       Country :
+       </td>
+       <td>
+       <input name="txtcountry" type="text"  value="{$row['country']}" /><br/>
+       </td>
+     </tr>
+     <tr>
+       <td>
+       Postcode :
+       </td>
+       <td>
+       <input name="txtpostcode" type="text"  value="{$row['postcode']}" /><br/>
+       </td>
+     </tr>
+   </table>
+   <input type="submit" value="Save" name="submit" class='submitButton'/>
    </form>
 
 EOD;

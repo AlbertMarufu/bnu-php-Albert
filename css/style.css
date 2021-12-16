@@ -1,0 +1,152 @@
+/* General */
+
+body{
+    padding-top: 50px;
+  }
+  
+  /* Login */
+  
+  .loginDiv{
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 2px dashed black;
+    border-radius: 10px;
+  }
+  
+  .loginDiv td {
+    font-size: 30px;
+    padding: 4px;
+  }
+  
+  .loginDiv input[type=submit]{
+    display: block;
+    margin: 15 auto;
+  }
+  
+  /* Nav Bar */
+  
+  .topnav {
+    background-color: #444;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .topnav a:hover {
+    text-decoration: none;
+    background-color: #2596be;
+    color: black;
+  }
+  
+  /* Modules */
+  
+  .moduleDiv{
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  
+  .moduleList th, .moduleList td {
+    padding: 10px;
+  }
+  
+  .moduleList th{
+    background-color: #2596be;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .moduleList td{
+    font-size: 20px;
+  }
+  
+  /* Add Module */
+  
+  .selectModuleDiv{
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+  
+  .selectModule{
+    margin: 10px 20px 25px 0px;
+  }
+  
+  /* Buttons */
+  
+  .submitButton {
+      width: 200px;
+      height: 30px;
+      background-color: #2596be;
+      font-size: 25px;
+      border: none;
+      border-radius: 10px;
+  }
+  
+  /* Add/Edit Student */
+  
+  .inputTable table,.inputTable td{
+    border: 0px;
+  }
+  
+  .inputTable td{
+    text-align: left;
+    width: 250px;
+  }
+  
+  .inputTable input[type=text],.inputTable input[type=password]{
+    width: 250px;
+  }
+  
+  .moduleList table, .moduleList th, .moduleList td{
+    border: 1px solid black;
+  }
+  
+  .submitAlert{
+    color: red;
+  }
+  
+  /* Students */
+  
+  .studentList  table,.studentList th,.studentList td {
+    border: 1px solid black;
+  }
+  
+  .studentList th,.studentList td{
+    text-align: center;
+  }
+  
+  .studentList th {
+    background-color: #2596be;
+    height: 50px;
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+  .delButtonDiv{
+    margin:5px 5px 5px 0px;
+    float: right;
+  }
+  

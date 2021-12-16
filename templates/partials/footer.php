@@ -1,4 +1,4 @@
-
-   </body>
+<!-- Footer -->
+</body>
 
 </html>
